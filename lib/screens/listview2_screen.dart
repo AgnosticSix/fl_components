@@ -5,7 +5,24 @@ class Listview2Screen extends StatelessWidget {
     'Megaman',
     'Metal Gear',
     'Super Smash',
-    'Final Fantasy'
+    'Final Fantasy',
+    'Gears of War',
+    'Halo',
+    'Apex Legends',
+    'Call of Duty Modern Warfare',
+    'Warframe',
+    'Valorant',
+    'Counter Strike: GO',
+    'Car Mechanic Simulator',
+    'American Truck Simularor',
+    'SnowRunner',
+    'Forza Horizon 5',
+    'Asseto Corsa',
+    'IRacing',
+    'Grand Theft Auto 5',
+    'Red Dead Redemption',
+    'Minecraft',
+    'Plants vs Zombies',
   ];
   const Listview2Screen({Key? key}) : super(key: key);
 
