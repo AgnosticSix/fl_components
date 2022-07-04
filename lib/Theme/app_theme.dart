@@ -8,7 +8,11 @@ class AppTheme {
       primaryColor: primary,
 
       //appbartheme
-      appBarTheme: const AppBarTheme(color: primary, elevation: 0));
+      appBarTheme: const AppBarTheme(color: primary, elevation: 0),
+
+      //textbutton theme
+      textButtonTheme:
+          TextButtonThemeData(style: TextButton.styleFrom(primary: primary)));
 
   static final ThemeData darkTheme = ThemeData.dark().copyWith(
       //color primerio
