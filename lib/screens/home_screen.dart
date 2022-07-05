@@ -1,6 +1,5 @@
 import 'package:fl_components/Theme/app_theme.dart';
 import 'package:fl_components/router/app_routes.dart';
-import 'package:fl_components/screens/alert_screen.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
