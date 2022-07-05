@@ -9,8 +9,22 @@ class AlertScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Alertas'),
       ),
-      body: const Center(
-        child: Text('AlertScreen'),
+      body: Center(
+          child: ElevatedButton(
+        child: const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+          child: Text(
+            'Mostrar alerta',
+            style: TextStyle(fontSize: 16),
+          ),
+        ),
+        onPressed: () {
+          Navigator.pop(context);
+        },
+      )),
+      floatingActionButton: FloatingActionButton(
+        child: const Icon(Icons.close),
+        onPressed: () {},
       ),
     );
   }
