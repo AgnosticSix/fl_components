@@ -51,7 +51,7 @@ class _SliderScreenState extends State<SliderScreen> {
           // ),
           CheckboxListTile(
             activeColor: AppTheme.primary,
-            title: Text('Habilitar Slider'),
+            title: const Text('Habilitar Slider'),
             value: _sliderEnabled,
             onChanged: (value) => setState(
               () {
@@ -62,11 +62,11 @@ class _SliderScreenState extends State<SliderScreen> {
 
           SwitchListTile.adaptive(
             activeColor: AppTheme.primary,
-            title: Text('Habilitar Slider'),
+            title: const Text('Habilitar Slider'),
             value: _sliderEnabled,
             onChanged: (value) => setState(
               () {
-                _sliderEnabled = value ?? true;
+                _sliderEnabled = value;
               },
             ),
           ),
